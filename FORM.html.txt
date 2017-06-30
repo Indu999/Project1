@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+<title>   Form      </title>
+ </head>
+
+<body style = "background-color:powderblue;">
+<h4  align = "center" style = "font-size:300%;color:red;" ">  <b>PERSONAL DETAILS FORM<b>  </h4>
+
+<form align = "center" action="hello">
+
+   <b>Name<b>      	:  <input type ="text"  name ="name"style = "font-size:120%" required><br><br>
+    Email     		:  <input type = "email" name = "email" style = "font-size:120%" required><br><br>
+    PhoneNo   		:  <input type = "number" name = "PhoneNo" maxlength = "10" style = "font-size:120%"  required><br><br>
+    Date Of Birth	:  <input type ="date" name = "date of birth"style = "font-size:120%" ><br><br>
+
+   
+   
+    Gender    		:  <input type="radio" name = "gender"  value = "male" checked > Male 
+                 	   <input type="radio" name = "gender" value = "female" > Female <br><br>
+                 
+
+  
+
+    City      		: <select name = "cities" style = "font-size:120%"> 
+
+               			 <option value = "Austin" > Austin <option>
+                		<option value = "Boston"> Boston <option>
+				<option value = "Chicago"> Chicago <option>
+				 <option value = "Dallas"> Dallas <option>
+		                 <option value ="None" selected ="selected"> None </option>
+
+                	 </select ><br><br>
+
+    State   		 :  <select name= "states" style = "font-size:120%" >
+				 <option value = "Alabama"> Alabama <option>
+		 		<option value = "California"> California <option>
+		 		<option value = "Delaware"> Delaware <option>
+      				 <option value = "Florida"> Florida <option>
+				<option value ="None" selected ="selected"> None </option>
+
+ 			    </select><br><br>
+
+
+         <input type = "submit"  value="SUBMIT">
+
+</form>
+
+<body>
+
+
+</html>
